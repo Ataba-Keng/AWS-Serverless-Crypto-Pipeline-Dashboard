@@ -5,3 +5,4 @@ __pycache__/
 dbt_analytics/target/
 dbt_analytics/logs/
 .DS_Store
+.vscode/
