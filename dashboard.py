@@ -12,9 +12,9 @@ st.markdown("Données ingérées via **S3**, transformées par **dbt** et requê
 
 # 2. Chargement des secrets (.env)
 load_dotenv()
-AWS_KEY = "AKIAZUHMVMNGLBNUGYU3"
-AWS_SECRET = "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"
-REGION = "eu-north-1"
+AWS_KEY = os.getenv("AWS_ACCESS_KEY")
+AWS_SECRET = os.getenv("AWS_SECRET_KEY")
+REGION = os.getenv("REGION", "eu-north-1")
 
 # On utilise le bucket de résultats pour qu'Athena stocke ses temp files
 STAGING_BUCKET = f"s3://{os.getenv('BUCKET_NAME')}/athena-results/" 
