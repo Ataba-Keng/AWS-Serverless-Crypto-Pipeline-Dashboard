@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: crypto_source
+    database: awsdatacatalog
+    schema: crypto_db # Le nom de ta base Athena
+    tables:
+      - name: btc_raw # Le nom de ta table externe créée tout à l'heure

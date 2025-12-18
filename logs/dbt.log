@@ -1,0 +1,24 @@
+[0m16:39:35.600367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7de04ad65d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7de048d17200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7de048d16de0>]}
+
+
+============================== 16:39:35.608575 | 18d4bb16-5d58-4935-8489-e4a620a31e51 ==============================
+[0m16:39:35.608575 [info ] [MainThread]: Running with dbt=1.10.16
+[0m16:39:35.610012 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'introspect': 'True', 'no_print': 'None', 'printer_width': '80', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'warn_error': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'empty': 'None', 'write_json': 'True', 'target_path': 'None', 'log_format': 'default', 'profiles_dir': '/home/keng/.dbt', 'invocation_command': 'dbt init dbt_aws_project', 'cache_selected_only': 'False', 'quiet': 'False'}
+[0m16:39:35.649022 [debug] [MainThread]: Starter project path: /home/keng/projetData/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:39:35.656942 [info ] [MainThread]: 
+Your new dbt project "dbt_aws_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:39:35.657977 [info ] [MainThread]: Setting up your profile.

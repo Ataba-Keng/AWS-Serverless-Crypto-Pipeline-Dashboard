@@ -1,0 +1,13 @@
+dbt_aws_project:
+  target: dev
+  outputs:
+    dev:
+      type: athena
+      s3_staging_dir: s3://keng-athena-results/dbt/ # Où Athena met ses logs
+      region_name: eu-north-1 # Ta région AWS
+      schema: analytics # Le nom de la "base de données" virtuelle dans Athena
+      database: awsdatacatalog # Toujours ça pour Athena
+      aws_access_key_id: "AKIAZUHMVMNGLBNUGYU3"
+      aws_secret_access_key: "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"
+      threads: 1 
+      workgroup: primary # Le workgroup Athena à utiliser
