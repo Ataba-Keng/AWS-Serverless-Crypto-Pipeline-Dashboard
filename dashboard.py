@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # 1. Config de la page
 st.set_page_config(page_title="Crypto Dashboard AWS", page_icon="📈")
-st.title("💰 Suivi Bitcoin - Architecture Serverless")
+st.title("Suivi Bitcoin - Architecture Serverless")
 st.markdown("Données ingérées via **S3**, transformées par **dbt** et requêtées via **Athena**.")
 
 # 2. Chargement des secrets (.env)
